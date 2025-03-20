@@ -18,7 +18,7 @@ public class MainController extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/gbibliotheque/adherents.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/org/example/gbibliotheque/livres.fxml"));
         Parent root = loader.load();
         Scene scene = new Scene(root, 800, 600);
         stage.setTitle("Gestion d'une Bibliothèque");
